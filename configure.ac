@@ -152,7 +152,7 @@ AC_ARG_ENABLE([upnp-default],
 
 AC_ARG_WITH([natpmp],
             [AS_HELP_STRING([--with-natpmp],
-                            [enable NAT-PMP (default is yes if libnatpmp is found)])],
+                              [enable NAT-PMP (default is yes if libnatpmp is found)])],
             [use_natpmp=$withval],
             [use_natpmp=auto])
 
